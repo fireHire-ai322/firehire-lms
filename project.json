@@ -1,0 +1,66 @@
+{
+  "name": "firehire-lms",
+  "version": "1.0.0",
+  "description": "An AI-powered Learning Management System for job interview preparation, built with Google Apps Script",
+  "main": "Code.gs",
+  "scripts": {
+    "setup": "clasp login && clasp clone <SCRIPT_ID>",
+    "push": "clasp push",
+    "open": "clasp open",
+    "logs": "clasp logs"
+  },
+  "keywords": [
+    "lms",
+    "learning-management-system",
+    "interview-prep",
+    "google-apps-script",
+    "glassmorphism",
+    "quiz-system",
+    "course-management",
+    "trainer-dashboard",
+    "student-dashboard",
+    "github-integration"
+  ],
+  "author": "FireHire Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/firehire-lms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/firehire-lms/issues"
+  },
+  "homepage": "https://github.com/your-username/firehire-lms#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.1"
+  },
+  "files": [
+    "Code.gs",
+    "index.html",
+    "README.md",
+    "GITHUB_SETUP.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    ".gitignore"
+  ],
+  "metadata": {
+    "spreadsheet_id": "1PkXlSooCrj32S3smRtVtgN0hUAu70EosZJ5tKW80OK8",
+    "deployment_url": "https://script.google.com/macros/s/.../exec",
+    "features": [
+      "Role-based authentication",
+      "Structured course with progressive unlocking",
+      "Auto-graded quiz system",
+      "Student progress tracking",
+      "Trainer dashboard",
+      "Admin analytics",
+      "GitHub integration",
+      "Dark glassmorphism UI",
+      "Mobile responsive"
+    ],
+    "created": "2025-01-15",
+    "updated": "2025-01-15"
+  }
+}

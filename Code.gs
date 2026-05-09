@@ -18,7 +18,7 @@ var PASSWORD = "FireHire2026";
 var GITHUB_CONFIG = {
   OWNER: "your-github-username",           // Change this
   REPO: "firehire-lms",                    // Change this
-  TOKEN: "your-github-personal-token",     // Get from GitHub Settings
+  TOKEN: "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",     // Get from GitHub Settings
   ENABLED: false                            // Set to true after setup
 };
 

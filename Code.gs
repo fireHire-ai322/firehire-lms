@@ -14,14 +14,6 @@
 var SPREADSHEET_ID = "1PbXilSooCrj32S3smRTvgNOhUAu70EosZJ5tKW80OK8";
 var PASSWORD = "FireHire2026";
 
-// GitHub Configuration
-var GITHUB_CONFIG = {
-  OWNER: "your-github-username",           // Change this
-  REPO: "firehire-lms",                    // Change this
-  TOKEN: "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",     // Get from GitHub Settings
-  ENABLED: true                            // Set to true after setup
-};
-
 // ─── Entry Point ────────────────────────────────────────────
 function doGet(e) {
   return HtmlService.createHtmlOutputFromFile("index")

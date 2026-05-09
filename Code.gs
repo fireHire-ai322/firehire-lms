@@ -14,6 +14,14 @@
 var SPREADSHEET_ID = "1PbXilSooCrj32S3smRTvgNOhUAu70EosZJ5tKW80OK8";
 var PASSWORD = "FireHire2026";
 
+// GitHub Configuration
+// 1. شغّل هذا الكود مباشرة في Console:
+
+// 2. استبدل القيم بتاعتك
+// 3. Run
+// 4. Save Code.gs
+// 5. Deploy جديد
+
 // ─── Entry Point ────────────────────────────────────────────
 function doGet(e) {
   return HtmlService.createHtmlOutputFromFile("index")
